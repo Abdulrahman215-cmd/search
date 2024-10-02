@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            .position-all {
+                text-align: center;
+                position: relative;
+                top: 200px;
+            }
+            .placeholder {
+                font-size: 17px;
+                border: 1px solid black;
+                border-radius: 40px;
+                width: 600px;
+                padding: 10px;
+                padding-left: 50px;
+            }
+            .picture {
+                position: relative;
+                right: 650px;
+                top: 2px;
+            }
+            h1 {
+                letter-spacing: -8px;
+                font-size: 60px;
+                font-family: Arial, Helvetica, sans-serif;
+                position: relative;
+                right: 20px;
+            }
+
+            .buttons {
+                position: relative;
+                top: 20px;
+            }
+            #input1 {
+                position: relative;
+                right: 30px;
+            }
+            .link1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 23px;
+            position: absolute;
+            top: 50px;
+            right: 56px;
+            color: rgb(0, 66, 248);
+            }
+            .link2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 23px;
+            position: absolute;
+            top: 90px;
+            right: 56px;
+            color: rgb(0, 66, 248);
+            }
+        </style>
+    </head>
+    <body>
+    <div class="position-all">
+        <h1>
+            <span style="color: rgb(65, 132, 243);">G</span>
+            <span style="color: rgba(212, 17, 20, 0.89);">o</span>
+            <span style="color: rgb(244 180 0);">o</span>
+            <span style="color: rgb(66, 133, 244) ;">g</span>
+            <span style="color: rgba(53, 168, 35, 0.827);">l</span>
+            <span style="color: rgba(212, 17, 20, 0.89);">e</span>
+        </h1>
+        <form action="https://google.com/search">
+            <div>
+                <input class="placeholder" type="text" name="q" placeholder="Google Search or type a URL">
+                <img class="picture" src="magnifying-glass.png" width="15px">
+            </div>
+            <div class="buttons">
+                <input id="input1" type="submit" value="Google Search">
+                <button name="btnI" type="submit" value="I'm feeling lucky">I'm feeling lucky</button>
+            </div>
+        </form>
+    </div>
+    <a class="link1" href="image.html">Google Image Search</a>
+    <a class="link2" href="advanced.html">Google Advanced Search</a>
+    </body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Images</title>
+        <style>
+            .position-all {
+                text-align: center;
+                position: relative;
+                top: 200px;
+            }
+            .placeholder {
+                font-size: 17px;
+                border: 1px solid black;
+                border-radius: 40px;
+                width: 600px;
+                padding: 10px;
+                padding-left: 50px;
+            }
+            .picture1 {
+                position: relative;
+                right: 650px;
+                top: 2px;
+            }
+            .picture2 {
+                position: relative;
+                right: 60px;
+                top: 6px;
+            }
+            h1 {
+                letter-spacing: -8px;
+                font-size: 60px;
+                font-family: Arial, Helvetica, sans-serif;
+                position: relative;
+                right: 20px;
+            }
+            h5 {
+                font-size: 17px;
+                position: relative;
+                bottom: 50px;
+                left: 70px;
+            }
+            .search-container {
+                position: relative;
+                bottom: 70px;
+            }
+            .input {
+                position: relative;
+                bottom: 50px;
+                right: 20px;
+            }
+            .link {
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            position: absolute;
+            top: 80px;
+            right: 56px;
+            color: rgb(0, 66, 248);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="position-all">
+            <h1>
+                <span style="color: rgb(65, 132, 243);">G</span>
+                <span style="color: rgba(212, 17, 20, 0.89);">o</span>
+                <span style="color: rgb(244 180 0);">o</span>
+                <span style="color: rgb(66, 133, 244) ;">g</span>
+                <span style="color: rgba(53, 168, 35, 0.827);">l</span>
+                <span style="color: rgb(212, 17, 20, 0.89);">e</span>
+            </h1>
+            <h5>
+                <span style="color: rgb(12, 139, 223);">Images</span>
+            </h5>
+            <form action="https://www.google.com/images">
+                <div class="search-container">
+                <input class="placeholder" type="text" name="q" placeholder="Search Images">
+                <img class="picture1" src="magnifying-glass.png" width="15px">
+                <img class="picture2" src="magnifying-glass-blue.png" width="25px">
+                </div>
+                <input class="input" type="submit" value="Search Images">
+            </form>
+        </div>
+            <a class="link" href="index.html">Google Search</a>
+    </body>
+</html>

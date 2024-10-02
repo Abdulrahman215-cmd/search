@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            hr {
+                width: 102%;
+                border: 1px solid black;
+                position: relative;
+                top: 30px;
+            }
+            h1 {
+                color: rgb(244, 79, 79);
+                position: relative;
+                top: 53px;
+            }
+            .left {
+                text-align: left;
+                position: relative;
+                top: 70px;
+                display: grid;
+                grid-row-gap: 55px;
+                font-size: 20px;
+            }
+            .middle {
+                position: relative;
+                bottom: 197px;
+                left: 240px;
+            }
+            #a {
+                position: relative;
+                top: 35px;
+            }
+            #b {
+                position: relative;
+                top: 73px;
+            }
+            #c {
+                position: relative;
+                top: 110px;
+            }
+            input {
+                width: 900px;
+                padding: 8px;
+                font-size: 17px;
+            }
+            .right {
+                position: relative;
+                bottom: 468px;
+                left: 1170px;
+                font-size: 20px;
+                display: grid;
+                grid-row-gap: 48px;
+            }
+            span {
+                font-weight: bold;
+            }
+            #submit {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                position: relative;
+                top: 160px;
+                left: 740px;
+                width: 170px;
+                padding: 9px;
+                background-color: rgb(90, 199, 239);
+                color: white;
+            }
+            #submit:hover {
+                background-color: rgb(28, 158, 222);
+            }
+            .link {
+            font-size: 27px;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            bottom: 950px;
+            left: 1500px;
+            color: rgb(0, 66, 248);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            Advanced Search
+        </h1>
+        <hr>
+        <div class="left">
+            <div style="font-size: 25px;">Find pages with...</div>
+            <div>all these words:</div>
+            <div>this exact word or phrase:</div>
+            <div>any of these words:</div>
+            <div>none of these words:</div>
+        </div>
+        <div class="middle">
+        <form action="https://www.google.com/search">
+            <input type="text" name="as_q">
+            <div><input id="a" type="text" name="as_epq"></div>
+            <div><input id="b" type="text" name="as_oq"></div>
+            <div><input id="c" type="text" name="as_eq"></div>
+            <div><input id="submit" type="submit" value="Advanced Search"></div>
+        </form>
+        </div>
+        <div class="right">
+            <div style="font-size: 25px;">To do this in the search box.</div>
+            <div>Type the important words: <span>tri-colour rat terrier</span></div>
+            <div>Put exact words in quotes: <span>"rat terrier"</span></div>
+            <div>Type <span>OR</span> between all the words you want: <span>miniature OR standard</span></div>
+            <div style="inline-size: 480px;">Put a minus sign just before words that you don't want: <span>-rodent, -"Jack Russell"</span></div>
+        </div>
+        <a class="link" href="index.html">Google Search</a>
+    </body>
+</html>
